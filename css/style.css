@@ -72,9 +72,16 @@ h3 {
     padding: 1rem o;
     display: flex;
     justify-content: center;
+    gap: 2rem;
 }
 
 .nav__link {
     font-family: var(--principal-font);
     color: var(--white);
+    font-size: 3rem;
+}
+
+.nav__link--active,
+.nav__link:hover {
+    color: var(--secundary);
 }
