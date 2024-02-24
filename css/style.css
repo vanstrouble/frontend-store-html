@@ -69,7 +69,7 @@ h3 {
 /* Navigation */
 .nav {
     background-color: var(--dark-primary);
-    padding: 1rem o;
+    padding: 1rem;
     display: flex;
     justify-content: center;
     gap: 2rem;
