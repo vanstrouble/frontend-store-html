@@ -157,10 +157,10 @@ h3 {
 }
 .graph--tshirts{
     grid-row: 2 / 3;
-    background-image: url("/img/grafico1.jpg");
+    background-image: url("/img/graph1.jpg");
 }
 .graph--node {
-    background-image: url("/img/grafico2.jpg");
+    background-image: url("/img/graph2.jpg");
     grid-row: 8 / 9;
 }
 @media (min-width: 768px) {
