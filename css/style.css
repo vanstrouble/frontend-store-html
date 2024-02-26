@@ -2,7 +2,7 @@
     --primary: #9C27B0;
     --dark-primary: #89119D;
     --secundary: #FFCE00;
-    --dark-secundary: rgb(233, 287, 2);
+    --dark-secundary: #d0a90a;
     --white: #FFF;
     --black: #000;
 
@@ -209,3 +209,29 @@ h3 {
     margin: 0;
 }
 
+/* Product page */
+@media (min-width: 768px) {
+    .tshirt {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
+.form {
+
+}
+.form__field {
+
+}
+.form__submit {
+    background-color: var(--secundary);
+    border: none;
+    font-size: 2rem;
+    font-family: var(--principal-font);
+    padding: 2rem;
+    transition: background-color .3s ease;
+}
+.form__submit:hover {
+    cursor: pointer;
+    background-color: var(--dark-secundary);
+}
